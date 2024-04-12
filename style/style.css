@@ -13,6 +13,7 @@ header.fixed{
     justify-content: flex-end;
     padding: 2rem;
     position: fixed;
+    z-index: 1;
 
 }
 ul {
@@ -30,6 +31,7 @@ li{
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    background-color: white;
 
 
 }
@@ -39,4 +41,41 @@ a{
     text-decoration: none;
     align-self: center;
     font-weight: 900;
+}
+
+section.box{
+    height: 100vh;
+    position: relative;
+
+}
+section.red {
+    background-color: #ff0000;
+}
+
+section.green {
+    background-color: #008000;
+   
+}
+
+section.yellow {
+    background-color: #ffff00;
+}
+h1.green-title{
+    color: #008000;
+}
+    h1.yellow-title{
+color: #ffff00;
+}
+
+div.product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50%);
+}
+
+h1.shoes-title{
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
 }
