@@ -5,15 +5,18 @@
 }
 body{
     font-family: sans-serif;
+    margin: 0 auto;
 }
 header.fixed{
-    width: 100%;
+    right: 0;
+    left: 0;
     display: flex;
     background-color: transparent;
     justify-content: flex-end;
     padding: 2rem;
     position: fixed;
     z-index: 1;
+    height: 100px;
 
 }
 ul {
@@ -54,7 +57,6 @@ section.red {
 
 section.green {
     background-color: #008000;
-   
 }
 
 section.yellow {
@@ -76,6 +78,7 @@ div.product{
 
 h1.shoes-title{
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
+    font-weight: 900;
 }
