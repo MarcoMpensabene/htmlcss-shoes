@@ -5,7 +5,6 @@
 }
 body{
     font-family: sans-serif;
-    margin: 0 auto;
 }
 header.fixed{
     right: 0;
@@ -15,8 +14,7 @@ header.fixed{
     justify-content: flex-end;
     padding: 2rem;
     position: fixed;
-    z-index: 1;
-    height: 100px;
+    z-index: 2;
 
 }
 ul {
@@ -35,8 +33,6 @@ li{
     display: flex;
     justify-content: center;
     background-color: white;
-
-
 }
 
 a{
