@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: sans-serif;
+    font-family: Rubik Mono One ,  sans-serif;
 }
 header.fixed{
     right: 0;
@@ -74,7 +74,7 @@ div.product{
 
 h1.shoes-title{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     text-transform: uppercase;
     font-weight: 900;
 }
